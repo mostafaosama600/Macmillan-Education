@@ -1607,3 +1607,188 @@
     margin-bottom: 10px;
   }
 }
+
+.ttr-Register-app {
+  background-color: #1b60f4;
+  padding: 8px 50px;
+  border-radius: 25px;
+  color: #fff;
+  font-weight: 500;
+}
+.ttr-Register-app:hover {
+  background-color: #0b24fb;
+  color: #fff;
+  font-weight: 500;
+}
+.ttr-Login-app {
+  background-color: #fff;
+  padding: 8px 60px;
+  border-radius: 25px;
+  color: #000;
+  font-weight: 500;
+  border: 1px solid#000;
+}
+.ttr-Login-app:hover {
+  background-color: #ddd;
+  color: #000;
+  font-weight: 500;
+}
+.ttr-help-app {
+  background-color: #fff;
+  padding: 8px 60px;
+  border-radius: 25px;
+  color: #1b60f4;
+  font-weight: 500;
+}
+.ttr-help-app:hover {
+  color: #1b60f4;
+  text-decoration: underline #1b60f4;
+}
+
+/* start form login  */
+
+.login-container {
+  margin-top: 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #111;
+  font-weight: 300;
+}
+.inbox-login {
+  width: 400px;
+  height: 570px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+.inner-box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.login-front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background: #fff;
+  padding: 55px;
+  box-sizing: border-box;
+  backface-visibility: hidden;
+}
+.ttr-forgot-name {
+  color: #1b60f4;
+  font-weight: 400;
+}
+.ttr-forgot-name:hover {
+  color: #1b60f4;
+  text-decoration: underline;
+}
+.ttr-forgot-password {
+  color: #1b60f4;
+  font-weight: 400;
+}
+.ttr-forgot-password:hover {
+  color: #1b60f4;
+  text-decoration: underline;
+}
+
+.inner-box h2 {
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.id-inner {
+  width: 100%;
+  background: transparent;
+  border: 1px solid gray;
+  height: 32px;
+  padding: 0 10px;
+  border-radius: 3px;
+  outline: none;
+  margin: 6px 0;
+  text-align: center;
+  color: #000;
+}
+
+::placeholder {
+  color: gray;
+  font-size: 12px;
+}
+
+button {
+  width: 100%;
+  background: transparent;
+  border: 0 solid #111;
+  height: 32px;
+  border-radius: 20px;
+  padding: 0 10px;
+  outline: none;
+  margin: 35px 0 10px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.submit-btn {
+  position: relative;
+  background-color: #1b60f4;
+}
+.submit-btn:hover {
+  background-color: #0b24fb;
+  color: #fff;
+}
+
+.Register-btn {
+  position: relative;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #111;
+}
+.Register-btn a {
+  color: #000;
+}
+.Register-btn a:hover {
+  color: #000;
+}
+.Register-btn:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+/* End Form Login */
+
+/* start register now */
+
+.next-for-register {
+  position: relative;
+  padding: 8px 15px;
+  border-radius: 12px;
+  background-color: #1b60f4;
+}
+.next-for-register:hover {
+  background-color: #0b24fb;
+  color: #fff;
+}
+.Conditions {
+  color: #1b60f4;
+  text-decoration: underline blue;
+}
+.Conditions:hover {
+  color: #1b60f4;
+  text-decoration: underline blue;
+}
+
+/* forgo password */
+.reminder-btn {
+  position: relative;
+  background-color: #1b60f4;
+}
+.reminder-btn:hover {
+  background-color: #0b24fb;
+  color: #fff;
+}
